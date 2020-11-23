@@ -1,0 +1,1 @@
+Tugas Besar Pengembangan Aplikasi Berbasis Mobile : Tugas ini merupakan salah satu syarat kelulusan dalam matakuliah Pengembangan Aplikasi Berbasis Web. Aplikasi ini merupakan sistem Banding UKT secara Online. Aplikasi ini dibuat dengan menggunakan Bahasa pemrograman Java dengan pengembangan menggunakan Android Studio IDE
