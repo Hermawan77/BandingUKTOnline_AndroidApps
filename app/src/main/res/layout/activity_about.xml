@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/gmail"
+        android:src="@drawable/email"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="100dp"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        />
+
+    <TextView
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="130dp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=": Pusat(at)itera.ac.id"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/telpon"
+        android:layout_below="@id/gmail"
+        android:src="@drawable/telpon"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        />
+
+    <TextView
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="200dp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=": (0721) 8030188, (0721) 8030189"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/alamat"
+        android:layout_below="@id/telpon"
+        android:src="@drawable/alamat"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        />
+
+    <TextView
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="270dp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=": Jalan Terusan Ryacudu, Way Hui, Kecamatan Jati Agung, Lampung Selatan 35365"
+        android:textSize="18sp" />
+
+</RelativeLayout>

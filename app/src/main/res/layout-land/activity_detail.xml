@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".DetailActivity">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:id="@+id/sportImageDetail"
+            android:adjustViewBounds="true"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/titleDetail"
+            android:layout_alignBottom="@+id/sportImageDetail"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark"
+            android:padding="16dp"
+            style="@style/TextAppearance.AppCompat.Headline"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Pengumuman Banding"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"
+            android:id="@+id/newsTitleDetail"
+            android:layout_below="@+id/sportImageDetail"
+            android:textColor="@color/colorPrimaryDark"
+            android:padding="16dp"
+            style="@style/TextAppearance.AppCompat.Subhead" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Berdasarkan Surat Edaran Wakil Rektor Bidang Non Akademik No.822/IT9.A/KU/2018 bahwa pengajuan banding dilaksanakan 1 tahun sekali pada semester genap, maka pengajuan banding Tahun Ajaran 2018/2019 dibuka pada tanggal 21 Februari 2019 s.d 30 Maret 2019. Perlu kami beritahukan bahwa permohonan pengajuan banding UKT dapat kami pertimbangkan dengan ketentuan dan berkas yang telah di lampirkan pada halaman Berkas &amp; Persyaratan. Demikian surat pemberitahuan ini kami buat , atas perhatiannya dan kerjasamanya kami ucapkan terima kasih."
+            android:id="@+id/subTitleDetail"
+            android:layout_below="@+id/newsTitleDetail"
+            android:padding="16dp"
+            style="@style/TextAppearance.AppCompat.Subhead" />
+
+    </RelativeLayout>
+</ScrollView>

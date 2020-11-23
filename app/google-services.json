@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "131693872593",
+    "firebase_url": "https://banding-ukt.firebaseio.com",
+    "project_id": "banding-ukt",
+    "storage_bucket": "banding-ukt.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:131693872593:android:e2609dd13fc13731",
+        "android_client_info": {
+          "package_name": "com.example.tugasbesar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "131693872593-cns9b1tjs5d3m4ahar7nu5i859itc8ll.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.tugasbesar",
+            "certificate_hash": "8855c2656b5704f460dbfc143e35a11166100097"
+          }
+        },
+        {
+          "client_id": "131693872593-i67mrs0phrpta0d8pdtc1h41ao61ktkt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBBmijC1pOIu0EgYEf-9P5fBywKE9ra-Kc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "131693872593-i67mrs0phrpta0d8pdtc1h41ao61ktkt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Banding UKT ITERA</string>
+    <string name="todo">TODO</string>
+    <string name="sign_in">Sign In</string>
+    <string name="password">Password</string>
+    <string name="user_name">Email</string>
+    <string name="button">Register</string>
+    <string name="title_activity_main">Halaman Utama</string>
+
+    <string name="title_placeholder">Title</string>
+    <string name="news_placeholder">News</string>
+    <string name="sports_info_placeholder">Here is some news</string>
+
+    <string-array name="sports_titles">
+        <item>Pengumuman</item>
+    </string-array>
+
+    <string-array name="sports_info">
+        <item>Pegumuman Banding!</item>
+    </string-array>
+
+    <array name="sports_images">
+        <item>@drawable/logo_itera</item>
+    </array>
+    <string name="title_activity_google_maps">Map</string>
+</resources>

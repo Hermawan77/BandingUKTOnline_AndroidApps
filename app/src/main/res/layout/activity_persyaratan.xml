@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="40dp"
+    android:paddingRight="40dp"
+    tools:context=".PersyaratanActivity">
+
+    <TextView
+        android:id="@+id/berkas"
+        android:textSize="18dp"
+        android:text="Berkas &amp; Persyaratan"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/syarat1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/berkas"
+        android:layout_alignParentLeft="true"
+        android:textSize="14sp"
+        android:text="1. Surat Keterangan Orang Tua Meninggal Dunia/Berpisah, Pensiun/PHK atau Sakit Keras (jika ada)."
+        android:layout_marginTop="40dp"/>
+
+    <TextView
+        android:id="@+id/syarat2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/syarat1"
+        android:layout_alignParentLeft="true"
+        android:textSize="14sp"
+        android:text="2. Membuat Surat Permohonan bermaterai disertai No. HP orangtua aktif."
+        android:layout_marginTop="5dp"/>
+
+    <TextView
+        android:id="@+id/syarat3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/syarat2"
+        android:layout_alignParentLeft="true"
+        android:textSize="14sp"
+        android:text="3. Mengisi Form Surat Pernyataan ditandangani oleh Kepala Desa Setempat. (Download           )"
+        android:layout_marginTop="5dp"/>
+
+    <TextView
+        android:id="@+id/syarat4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/syarat3"
+        android:layout_alignParentLeft="true"
+        android:textSize="14sp"
+        android:layout_marginTop="5dp"
+        android:text="4. Mengisi Form Surat Persetujuan Ketua Program Studi dan Dosen Wali. (Download           )" />
+
+    <TextView
+        android:id="@+id/syarat5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/syarat4"
+        android:layout_alignParentLeft="true"
+        android:textSize="14sp"
+        android:text="5. Melampirkan Surat Persetujuan dari Keluarga Mahasiswa. (Download           )"
+        android:layout_marginTop="5dp"/>
+
+    <TextView
+        android:id="@+id/syarat6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/syarat5"
+        android:layout_alignParentLeft="true"
+        android:textSize="14sp"
+        android:text="6. Melampirkan Foto Copy Rekening Listrik 3(tiga) Bulan Terakhir."
+        android:layout_marginTop="5dp"/>
+
+    <TextView
+        android:id="@+id/syarat7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/syarat6"
+        android:layout_alignParentLeft="true"
+        android:textSize="14sp"
+        android:text="7. Melampirkan Foto Copy Slip Gaji 3(tiga) Bulan Terakhir."
+        android:layout_marginTop="5dp"/>
+
+    <TextView
+        android:id="@+id/syarat8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/syarat7"
+        android:layout_alignParentLeft="true"
+        android:textSize="14sp"
+        android:text="8. Melampirkan Foto Copy PBB Terbaru."
+        android:layout_marginTop="5dp"/>
+
+    <TextView
+        android:id="@+id/syarat9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/syarat8"
+        android:layout_alignParentLeft="true"
+        android:textSize="14sp"
+        android:text="9. Melampirkan Foto Copy KTP dan Kartu Keluarga."
+        android:layout_marginTop="5dp"/>
+
+    <TextView
+        android:id="@+id/syarat10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/syarat9"
+        android:layout_alignParentLeft="true"
+        android:textSize="14sp"
+        android:text="10. Melampirkan Foto Rumah tampak depan, ruang tengah, dan ruang tamu."
+        android:layout_marginTop="5dp"/>
+
+    <TextView
+        android:id="@+id/kades"
+        android:textSize="14sp"
+        android:textColor="#0050ff"
+        android:layout_marginTop="195dp"
+        android:text="disini"
+        android:layout_marginStart="71dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/kaprodi"
+        android:textSize="14sp"
+        android:text="disini"
+        android:textColor="#0050ff"
+        android:layout_marginTop="252dp"
+        android:layout_marginStart="70dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/kmitera"
+        android:textSize="14sp"
+        android:text="disini"
+        android:layout_marginTop="293dp"
+        android:layout_marginStart="206dp"
+        android:textColor="#0050ff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>
